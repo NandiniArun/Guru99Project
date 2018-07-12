@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.guru.qa.Testcases.SampleTest" duration-ms="20" started-at="2018-07-11T22:17:46Z" finished-at="2018-07-11T22:17:46Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="20" started-at="2018-07-11T22:17:46Z" finished-at="2018-07-11T22:17:46Z">
+      <class name="com.guru.qa.Testcases.SampleTest">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.Testcases.SampleTest@35f983a6]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-07-11T15:17:46Z" finished-at="2018-07-11T15:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.guru.qa.Testcases.SampleTest@35f983a6]" name="setUP" is-config="true" duration-ms="0" started-at="2018-07-11T15:17:46Z" finished-at="2018-07-11T15:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guru.qa.Testcases.SampleTest@35f983a6]" name="test1" duration-ms="0" started-at="2018-07-11T15:17:46Z" finished-at="2018-07-11T15:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.guru.qa.Testcases.SampleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.guru.qa.Testcases.SampleTest -->
+</testng-results>
