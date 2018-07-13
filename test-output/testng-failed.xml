@@ -5,7 +5,6 @@
     <classes>
       <class name="com.guru.qa.Testcases.LoginGuruTest">
         <methods>
-          <include name="loginTitleTest"/>
           <include name="setUP"/>
           <include name="loginTest"/>
           <include name="tearDown"/>

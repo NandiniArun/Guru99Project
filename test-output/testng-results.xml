@@ -1,33 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18490" started-at="2018-07-11T23:05:22Z" finished-at="2018-07-11T23:05:41Z">
+  <suite name="Default suite" duration-ms="53452" started-at="2018-07-13T08:56:19Z" finished-at="2018-07-13T08:57:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18490" started-at="2018-07-11T23:05:22Z" finished-at="2018-07-11T23:05:41Z">
+    <test name="Default test" duration-ms="53452" started-at="2018-07-13T08:56:19Z" finished-at="2018-07-13T08:57:13Z">
       <class name="com.guru.qa.Testcases.LoginGuruTest">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@604ed9f0]" name="setUP" is-config="true" duration-ms="7214" started-at="2018-07-11T23:05:22Z" finished-at="2018-07-11T23:05:29Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="setUP" is-config="true" duration-ms="6712" started-at="2018-07-13T08:56:19Z" finished-at="2018-07-13T08:56:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="loginTitleTest()[pri:1, instance:com.guru.qa.Testcases.LoginGuruTest@604ed9f0]" name="loginTitleTest" duration-ms="21" started-at="2018-07-11T23:05:29Z" finished-at="2018-07-11T23:05:29Z">
+        <test-method status="PASS" signature="loginTitleTest()[pri:1, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="loginTitleTest" duration-ms="26" started-at="2018-07-13T08:56:26Z" finished-at="2018-07-13T08:56:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="324" started-at="2018-07-11T23:05:29Z" finished-at="2018-07-11T23:05:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="353" started-at="2018-07-13T08:56:26Z" finished-at="2018-07-13T08:56:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@604ed9f0]" name="setUP" is-config="true" duration-ms="5260" started-at="2018-07-11T23:05:30Z" finished-at="2018-07-11T23:05:35Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="setUP" is-config="true" duration-ms="5809" started-at="2018-07-13T08:56:27Z" finished-at="2018-07-13T08:56:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.guru.qa.Testcases.LoginGuruTest@604ed9f0]" name="loginTest" duration-ms="5312" started-at="2018-07-11T23:05:35Z" finished-at="2018-07-11T23:05:40Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:2, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="loginTest" duration-ms="5504" started-at="2018-07-13T08:56:33Z" data-provider="getData" finished-at="2018-07-13T08:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="316" started-at="2018-07-11T23:05:40Z" finished-at="2018-07-11T23:05:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="365" started-at="2018-07-13T08:56:38Z" finished-at="2018-07-13T08:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="setUP" is-config="true" duration-ms="5739" started-at="2018-07-13T08:56:39Z" finished-at="2018-07-13T08:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:2, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="loginTest" duration-ms="5324" started-at="2018-07-13T08:56:44Z" data-provider="getData" finished-at="2018-07-13T08:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr142363]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ypadata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="315" started-at="2018-07-13T08:56:50Z" finished-at="2018-07-13T08:56:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="setUP" is-config="true" duration-ms="5704" started-at="2018-07-13T08:56:50Z" finished-at="2018-07-13T08:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:2, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="loginTest" duration-ms="5343" started-at="2018-07-13T08:56:56Z" data-provider="getData" finished-at="2018-07-13T08:57:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nandini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ypadata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="345" started-at="2018-07-13T08:57:01Z" finished-at="2018-07-13T08:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="setUP" is-config="true" duration-ms="5540" started-at="2018-07-13T08:57:01Z" finished-at="2018-07-13T08:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:2, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="loginTest" duration-ms="5403" started-at="2018-07-13T08:57:07Z" data-provider="getData" finished-at="2018-07-13T08:57:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr142363]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.Testcases.LoginGuruTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="339" started-at="2018-07-13T08:57:12Z" finished-at="2018-07-13T08:57:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

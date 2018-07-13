@@ -30,9 +30,9 @@ public class LoginGuruPage extends BaseClass{
 		return driver.getTitle();
 	}
 	
-	public HomeGuruPage login() {
-		userid.sendKeys(prop.getProperty("username"));
-		password.sendKeys(prop.getProperty("password"));
+	public HomeGuruPage login(String user,String pass) {
+		userid.sendKeys(user);
+		password.sendKeys(pass);
 		loginBtn.click();
 		try {
 			Thread.sleep(5000);
